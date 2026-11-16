@@ -66,5 +66,9 @@
     "max_date": "2026-07-12",
     "avg": 968.21,
     "points": 238
+  },
+  "q-playstation-5": {
+    "checked": "2026-11-16T01:05:29+00:00",
+    "error": "Falta la clave de búsqueda: agrega el secret SERPAPI_KEY o SERPER_API_KEY."
   }
 }

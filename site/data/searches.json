@@ -18,5 +18,14 @@
     "added": "2025-08-01",
     "exclude": "case, cover",
     "demo": true
+  },
+  {
+    "id": "q-playstation-5",
+    "query": "Playstation 5",
+    "name": "Playstation 5",
+    "category": "electronica",
+    "currency": "USD",
+    "added": "2026-11-16",
+    "min_price": 250.0
   }
 ]
