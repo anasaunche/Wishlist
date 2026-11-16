@@ -15,6 +15,7 @@
       <div class="search">
         <input id="search" type="search" placeholder="Buscar…" aria-label="Buscar artículos">
       </div>
+      <a id="add-btn" class="add-btn" target="_blank" rel="noopener" hidden>+ Agregar</a>
       <button id="bell" class="icon-btn" aria-label="Notificaciones" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg>
         <span id="bell-count" class="badge-count" hidden>0</span>
@@ -80,12 +81,37 @@
         <div id="d-verdict" class="verdict"></div>
         <dl id="d-stats" class="stats"></dl>
         <p id="d-notes" class="notes"></p>
-        <a id="d-buy" class="btn-primary" target="_blank" rel="noopener noreferrer">Ir a la tienda ↗</a>
+        <div class="buy-row">
+          <a id="d-buy" class="btn-primary" target="_blank" rel="noopener noreferrer">Ir a la tienda ↗</a>
+          <a id="d-buy2" class="btn-secondary" target="_blank" rel="noopener noreferrer" hidden></a>
+        </div>
       </div>
     </div>
+    <section id="compare" class="chart-card" hidden>
+      <div class="chart-head">
+        <h3>Comparar tiendas</h3>
+        <div class="cmp-tools">
+          <label class="toggle"><input type="checkbox" id="cmp-fav"> Solo favoritas ♥</label>
+          <select id="cmp-store" aria-label="Filtrar por tienda"></select>
+        </div>
+      </div>
+      <p class="cmp-help"><span id="cmp-checked"></span> · El <b>puntaje calidad-precio</b> (0–100) combina lo barato que es con su calificación; los productos con pocas reseñas cuentan menos. Toca un encabezado para ordenar.</p>
+      <div class="table-wrap">
+        <table id="cmp-table" class="cmp">
+          <thead><tr>
+            <th>Producto</th><th>Tienda</th>
+            <th data-sort="price" class="num">Precio</th>
+            <th data-sort="rating" class="num">Calificación</th>
+            <th data-sort="score">Calidad-precio</th><th></th>
+          </tr></thead>
+          <tbody id="cmp-body"></tbody>
+        </table>
+      </div>
+    </section>
+
     <div class="chart-card">
       <div class="chart-head">
-        <h3>Historial de precios</h3>
+        <h3 id="chart-title">Historial de precios</h3>
         <div id="ranges" class="seg" role="group" aria-label="Rango">
           <button data-days="30">1M</button>
           <button data-days="90">3M</button>

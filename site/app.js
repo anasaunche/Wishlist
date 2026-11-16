@@ -10,9 +10,10 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* sin almacenamiento */ } },
   };
 
-  let cfg = {}, items = [], state = {}, alerts = [], histories = {};
+  let cfg = {}, items = [], state = {}, alerts = [], histories = {}, results = {};
   const filters = { cats: new Set(), range: null, min: null, max: null, q: "", deals: false, bought: false, sort: "deal" };
   let currentItem = null, currentDays = 730;
+  const cmp = { sort: "price", dir: 1, store: "", fav: false };
 
   // ---------------------------------------------------------------- formato
   const money = (v, cur) => {
@@ -52,8 +53,9 @@
     const isDeal = atBest || atTarget || (prices.length >= 3 && position <= 0.15);
     return {
       ...item, st, hist, price, min, max, avg, prev, target, atBest, atTarget, dropPct, position, isDeal,
-      name: item.name || st.title || item.id,
+      name: item.name || st.title || item.query || item.id,
       image: item.image || st.image,
+      url: item.kind === "search" ? (st.cheapest?.link || "") : item.url,
       currency: item.currency || st.currency || cfg.currency,
     };
   }
@@ -83,7 +85,7 @@
       if (hi != null && p > hi) return false;
       if (filters.deals && !v.isDeal) return false;
       if (filters.q) {
-        const hay = `${v.name} ${cat(v.category).label} ${host(v.url)} ${v.notes || ""}`.toLowerCase();
+        const hay = `${v.name} ${v.query || ""} ${v.st.cheapest?.store || ""} ${cat(v.category).label} ${host(v.url)} ${v.notes || ""}`.toLowerCase();
         if (!hay.includes(filters.q)) return false;
       }
       return true;
@@ -114,6 +116,7 @@
     if (v.atTarget) flags.push(`<span class="flag flag-target">🎯 Precio objetivo</span>`);
     if (v.atBest) flags.push(`<span class="flag flag-best">🏆 Mejor precio</span>`);
     else if (v.dropPct >= 1) flags.push(`<span class="flag flag-drop">↓ ${Math.round(v.dropPct)}%</span>`);
+    if (v.kind === "search" && v.st.count) flags.push(`<span class="flag flag-search">🔍 ${v.st.count} ofertas · ${v.st.stores} tiendas</span>`);
     if (v.st.error && v.price == null) flags.push(`<span class="flag flag-err">⚠ Sin precio</span>`);
     if (v.bought) flags.push(`<span class="flag flag-demo">✓ Comprado</span>`);
     const img = v.image
@@ -124,7 +127,9 @@
       <div class="card-body">
         <div class="tags"><span class="tag">${c.emoji} ${esc(c.label)}</span></div>
         <div class="card-name">${esc(v.name)}</div>
-        <div class="card-shop">${esc(host(v.url))}</div>
+        <div class="card-shop">${v.kind === "search"
+          ? (v.st.cheapest ? `💸 Más barato en <b>${esc(v.st.cheapest.store)}</b>` : "Búsqueda en tiendas")
+          : esc(host(v.url))}</div>
         ${sparkline(v.hist)}
         <div class="card-foot">
           <span class="price">${money(v.price, v.currency)}</span>
@@ -168,7 +173,8 @@
     media.innerHTML = v.image
       ? `<img src="${esc(v.image)}" alt="" referrerpolicy="no-referrer">`
       : `<span class="ph" style="font-size:96px">${c.emoji}</span>`;
-    $("#d-tags").innerHTML = `<span class="tag">${c.emoji} ${esc(c.label)}</span><span class="tag">${esc(host(v.url))}</span>` +
+    $("#d-tags").innerHTML = `<span class="tag">${c.emoji} ${esc(c.label)}</span>` +
+      (v.kind === "search" ? `<span class="tag">🔍 “${esc(v.query)}”</span>` : `<span class="tag">${esc(host(v.url))}</span>`) +
       (v.demo ? `<span class="flag flag-demo">Ejemplo</span>` : "");
     $("#d-name").textContent = v.name;
     $("#d-price").textContent = money(v.price, v.currency);
@@ -195,7 +201,18 @@
     ];
     $("#d-stats").innerHTML = rows.map(([k, val]) => `<div><dt>${k}</dt><dd>${val}</dd></div>`).join("");
     $("#d-notes").textContent = v.notes || "";
-    $("#d-buy").href = v.url;
+    const buy = $("#d-buy"), buy2 = $("#d-buy2");
+    buy.href = v.url || "#";
+    buy.hidden = !v.url;
+    if (v.kind === "search" && v.st.cheapest) {
+      buy.textContent = `💸 Más barato en ${v.st.cheapest.store} ↗`;
+      const bv = v.st.best_value;
+      buy2.hidden = !bv || bv.link === v.st.cheapest.link;
+      if (bv) { buy2.href = bv.link; buy2.textContent = `⭐ Mejor calidad-precio: ${bv.store} · ${money(bv.price, v.currency)} ↗`; }
+    } else { buy.textContent = "Ir a la tienda ↗"; buy2.hidden = true; }
+    $("#compare").hidden = v.kind !== "search";
+    $("#chart-title").textContent = v.kind === "search" ? "Historial del precio más bajo encontrado" : "Historial de precios";
+    if (v.kind === "search") loadCompare(v);
 
     $("#ranges").querySelectorAll("button").forEach((b) => b.classList.toggle("on", +b.dataset.days === currentDays));
     drawChart();
@@ -278,6 +295,53 @@
     hit.addEventListener("touchend", leave);
   }
 
+  // ---------------------------------------------------------------- comparador
+  async function loadCompare(v) {
+    $("#cmp-body").innerHTML = `<tr><td colspan="6" class="muted">Cargando…</td></tr>`;
+    if (!results[v.id]) results[v.id] = await getJSON(`data/search_results/${encodeURIComponent(v.id)}.json`, { offers: [] });
+    const offers = results[v.id].offers || [];
+    const stores = [...new Set(offers.map((o) => o.store))].sort((a, b) => a.localeCompare(b));
+    cmp.store = "";
+    $("#cmp-store").innerHTML = `<option value="">Todas las tiendas (${stores.length})</option>` +
+      stores.map((s) => `<option>${esc(s)}</option>`).join("");
+    $("#cmp-checked").textContent = results[v.id].checked ? `Actualizado ${ago(results[v.id].checked)}` : "";
+    renderCompare();
+  }
+
+  const stars = (r) => r ? `<span class="stars" style="--r:${(r / 5) * 100}%" aria-label="${r} de 5"></span> ${r.toFixed(1)}` : `<span class="muted">—</span>`;
+
+  function renderCompare() {
+    const v = currentItem;
+    if (!v || v.kind !== "search") return;
+    let offers = (results[v.id]?.offers || []).slice();
+    if (cmp.store) offers = offers.filter((o) => o.store === cmp.store);
+    if (cmp.fav) offers = offers.filter((o) => o.store_id);
+    const key = { price: (o) => o.price, rating: (o) => o.rating || 0, reviews: (o) => o.reviews || 0, score: (o) => o.score || 0 }[cmp.sort];
+    offers.sort((a, b) => (key(a) - key(b)) * cmp.dir);
+    const cheapest = v.st.cheapest?.link, best = v.st.best_value?.link;
+    document.querySelectorAll("#cmp-table th[data-sort]").forEach((th) => {
+      th.dataset.dir = th.dataset.sort === cmp.sort ? (cmp.dir > 0 ? "asc" : "desc") : "";
+    });
+    const repo = cfg.repo;
+    $("#cmp-body").innerHTML = offers.length ? offers.map((o) => {
+      const badges = [
+        o.link === cheapest ? `<span class="flag flag-best">💸 Más barato</span>` : "",
+        o.link === best ? `<span class="flag flag-target">⭐ Mejor calidad-precio</span>` : "",
+      ].join("");
+      const track = repo ? `https://github.com/${repo}/issues/new?template=agregar-articulo.yml&title=${encodeURIComponent("Agregar: " + o.title.slice(0, 60))}&url=${encodeURIComponent(o.link)}&name=${encodeURIComponent(o.title.slice(0, 80))}` : "";
+      return `<tr class="${o.link === cheapest || o.link === best ? "hl" : ""}">
+        <td class="c-prod">${o.image ? `<img src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+          <div><div class="c-title">${esc(o.title)}</div>${badges ? `<div class="c-badges">${badges}</div>` : ""}</div></td>
+        <td>${esc(o.store)}${o.store_id ? ` <span class="fav" title="Tienda favorita">♥</span>` : ""}</td>
+        <td class="num"><b>${money(o.price, v.currency)}</b>${o.old_price ? `<br><s class="muted">${money(o.old_price, v.currency)}</s>` : ""}</td>
+        <td class="num">${stars(o.rating)}<br><span class="muted">${o.rating && o.reviews ? o.reviews.toLocaleString(cfg.locale) + " reseñas" : ""}</span></td>
+        <td><div class="score"><span style="width:${o.score}%"></span></div><span class="muted">${o.score}</span></td>
+        <td class="c-act"><a class="btn-sm" href="${esc(o.link)}" target="_blank" rel="noopener noreferrer">Ver ↗</a>
+          ${track ? `<a class="btn-sm ghost" href="${esc(track)}" target="_blank" rel="noopener" title="Seguir el precio exacto de este producto">+ Seguir</a>` : ""}</td>
+      </tr>`;
+    }).join("") : `<tr><td colspan="6" class="muted">${v.st.error ? esc(v.st.error) : "Sin ofertas todavía. La búsqueda corre una vez al día."}</td></tr>`;
+  }
+
   // ---------------------------------------------------------------- notificaciones
   const seenKey = "wishlist.seenAlerts";
   const seen = () => new Set(store.get(seenKey, []));
@@ -348,6 +412,13 @@
       }
     });
     $("#bell").addEventListener("click", () => $("#notifs").showModal());
+    document.querySelectorAll("#cmp-table th[data-sort]").forEach((th) => th.addEventListener("click", () => {
+      const k = th.dataset.sort;
+      if (cmp.sort === k) cmp.dir *= -1; else { cmp.sort = k; cmp.dir = k === "price" ? 1 : -1; }
+      renderCompare();
+    }));
+    $("#cmp-store").addEventListener("change", (e) => { cmp.store = e.target.value; renderCompare(); });
+    $("#cmp-fav").addEventListener("change", (e) => { cmp.fav = e.target.checked; renderCompare(); });
     $("#mark-read").addEventListener("click", () => markSeen(alerts.map((a) => a.id)));
     $("#detail").addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
     document.querySelectorAll("dialog").forEach((dlg) =>
@@ -374,10 +445,19 @@
 
   // ---------------------------------------------------------------- inicio
   async function init() {
-    [cfg, items, state, alerts] = await Promise.all([
+    let searches, sstate;
+    [cfg, items, state, alerts, searches, sstate] = await Promise.all([
       getJSON("data/config.json", {}), getJSON("data/items.json", []),
       getJSON("data/state.json", {}), getJSON("data/alerts.json", []),
+      getJSON("data/searches.json", []), getJSON("data/search_state.json", {}),
     ]);
+    items = items.concat(searches.map((s) => ({ ...s, kind: "search" })));
+    Object.assign(state, sstate);
+    if (cfg.repo) {
+      const add = $("#add-btn");
+      add.href = `https://github.com/${cfg.repo}/issues/new/choose`;
+      add.hidden = false;
+    }
     document.title = cfg.title || document.title;
     $("#site-title").textContent = cfg.title || "Mi Wishlist";
     filters.sort = store.get("wishlist.sort", "deal");

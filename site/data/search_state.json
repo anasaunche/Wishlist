@@ -1,0 +1,70 @@
+{
+  "q-demo-leather-jacket": {
+    "checked": "2026-11-16T01:00:22+00:00",
+    "price": 71.22,
+    "currency": "USD",
+    "previous": 96.26,
+    "count": 8,
+    "stores": 8,
+    "cheapest": {
+      "title": "Genuine Leather Biker Jacket",
+      "store": "Amazon.com",
+      "price": 71.22,
+      "link": "https://example.com/oferta/1",
+      "image": null,
+      "rating": 4.8,
+      "reviews": 640
+    },
+    "best_value": {
+      "title": "Genuine Leather Biker Jacket",
+      "store": "Amazon.com",
+      "price": 71.22,
+      "link": "https://example.com/oferta/1",
+      "image": null,
+      "rating": 4.8,
+      "reviews": 640,
+      "score": 92
+    },
+    "image": null,
+    "min": 69.43,
+    "min_date": "2025-12-22",
+    "max": 101.76,
+    "max_date": "2025-09-27",
+    "avg": 83.26,
+    "points": 278
+  },
+  "q-demo-ipad-pro": {
+    "checked": "2026-11-16T01:00:22+00:00",
+    "price": 845.76,
+    "currency": "USD",
+    "previous": 916.64,
+    "count": 5,
+    "stores": 5,
+    "cheapest": {
+      "title": "iPad Pro 11-inch M4 256GB Space Black",
+      "store": "Best Buy",
+      "price": 845.76,
+      "link": "https://example.com/oferta/2",
+      "image": null,
+      "rating": 4.6,
+      "reviews": 120
+    },
+    "best_value": {
+      "title": "iPad Pro 11-inch M4 256GB Space Black",
+      "store": "Best Buy",
+      "price": 845.76,
+      "link": "https://example.com/oferta/2",
+      "image": null,
+      "rating": 4.6,
+      "reviews": 120,
+      "score": 82
+    },
+    "image": null,
+    "min": 817.7,
+    "min_date": "2026-09-30",
+    "max": 1219.45,
+    "max_date": "2026-07-12",
+    "avg": 968.21,
+    "points": 238
+  }
+}

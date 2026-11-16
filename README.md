@@ -1,6 +1,6 @@
 # 🎁 Mi Wishlist
 
-Wishlist personal con vista de galería, filtros por tipo y rango de precio, historial de precios de hasta 2 años y alertas por Telegram cuando algo baja de precio.
+Wishlist personal con vista de galería, filtros por tipo y rango de precio, historial de precios de hasta 2 años, alertas por Telegram cuando algo baja de precio y **búsqueda diaria en varias tiendas** (Amazon, Walmart, Target, H&M, Forever 21…) con tabla comparativa de calidad-precio.
 
 ## Cómo funciona
 
@@ -11,7 +11,9 @@ Wishlist personal con vista de galería, filtros por tipo y rango de precio, his
 | `site/data/history/<id>.json` | Historial de precios de cada artículo (se guardan los últimos 2 años) |
 | `site/data/state.json`, `alerts.json` | Los genera el robot: precio actual, mínimos y máximos, y alertas |
 | `.github/workflows/track.yml` | Cada 6 horas revisa los precios, guarda el historial y te avisa por Telegram |
-| `.github/workflows/add-item.yml` | Agrega artículos desde un formulario de *Issues* (funciona desde el celular) |
+| `.github/workflows/search.yml` | Una vez al día busca tus productos genéricos en Google Shopping (todas las tiendas) |
+| `.github/workflows/add-item.yml` | Agrega artículos o búsquedas desde formularios de *Issues* (funciona desde el celular) |
+| `site/data/searches.json` | Tus búsquedas genéricas ("leather jacket", "iPad Pro"…) |
 | `.github/workflows/pages.yml` | Vuelve a publicar la página cuando cambian los datos |
 
 ## Puesta en marcha (una sola vez)
@@ -30,14 +32,41 @@ Después ve a *Actions → Publicar página → Run workflow*. La URL será `htt
    - `TELEGRAM_BOT_TOKEN` = el token
    - `TELEGRAM_CHAT_ID` = el número del chat
 
-### 3. Ajustar la configuración (`site/data/config.json`)
+### 3. Clave para buscar en tiendas
+Las búsquedas usan Google Shopping, que junta ofertas de Amazon, Walmart, Target, H&M, Forever 21, Best Buy y cientos de tiendas más (las tiendas bloquean a los robots si se les consulta directo). Necesitas **una** de estas claves gratuitas:
+
+| Servicio | Gratis | Secret en GitHub |
+|---|---|---|
+| [SerpApi](https://serpapi.com) (recomendado) | ~250 búsquedas al mes → ~8 productos revisados a diario | `SERPAPI_KEY` |
+| [Serper.dev](https://serper.dev) | 2,500 búsquedas una sola vez | `SERPER_API_KEY` |
+
+Cada producto buscado gasta **1 búsqueda al día**. Agrégala en *Settings → Secrets and variables → Actions*.
+
+### 4. Ajustar la configuración (`site/data/config.json`)
 - `currency`: tu moneda por defecto (`USD`, `MXN`, `COP`…).
 - `site_url`: la URL de tu página, para que el mensaje de Telegram traiga un enlace al historial.
 - `alert_drop_pct`: % mínimo de bajada para avisarte (10 por defecto).
+- `stores`: tus tiendas favoritas (se marcan con ♥ y puedes filtrar solo por ellas). `only_favorite_stores: true` ignora todas las demás.
+- `search_country`: país de la búsqueda (`us`, `mx`, `co`…) y `search_language`.
 - `price_ranges` y `categories`: los rangos de precio y tipos de producto de los filtros.
 
-### 4. Borrar los ejemplos
-Los artículos marcados como **Ejemplo** son solo para que veas cómo se ve. Bórralos de `items.json` (los que tienen `"demo": true`), y borra `site/data/history/demo-*.json` y el contenido de `alerts.json` (déjalo como `[]`).
+### 5. Borrar los ejemplos
+Los artículos marcados como **Ejemplo** son solo para que veas cómo se ve. Bórralos de `items.json` y `searches.json` (los que tienen `"demo": true`), y borra `site/data/history/demo-*.json`, `site/data/history/q-demo-*.json`, `site/data/search_results/q-demo-*.json`, `search_state.json` (déjalo como `{}`) y el contenido de `alerts.json` (déjalo como `[]`).
+
+## Buscar un producto en varias tiendas
+
+*Issues → New issue → 🔍 Buscar producto en varias tiendas* (o el botón **+ Agregar** de la página). Escribe lo que quieres, p. ej. `women's leather jacket` o `ipad pro 11 m4`.
+
+Cada día el robot busca ese producto y en la página verás:
+- **💸 Más barato en …**: botón directo a la oferta más barata.
+- **⭐ Mejor calidad-precio**: la oferta con mejor equilibrio entre precio y calificación.
+- **Tabla comparativa** con todas las tiendas: precio, precio anterior, estrellas, número de reseñas y puntaje calidad-precio (0–100). Puedes ordenar por cualquier columna y filtrar por tienda o solo favoritas.
+- **+ Seguir**: si te decides por una oferta concreta, la agrega como artículo para seguir su precio exacto.
+- Gráfica del **precio más bajo encontrado** día a día, y alerta en Telegram cuando baja.
+
+**Cómo se calcula el puntaje calidad-precio:** 50% precio (100 = el más barato de la lista) + 50% calidad. La calidad usa la calificación con un ajuste bayesiano: un producto con 4.9★ y 5 reseñas no le gana a uno con 4.7★ y 3,000 reseñas.
+
+**Tips para buenos resultados:** usa *Precio mínimo* y *Excluir palabras* (`case, cover, refurbished`) para quitar accesorios, y *Debe incluir* (`ipad pro 11`) para exigir palabras en el título. Además, se descartan solos los precios menores al 25% de la mediana.
 
 ## Agregar artículos
 

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "q-demo-leather-jacket",
+    "query": "women's leather jacket",
+    "name": "Chamarra de piel (ejemplo)",
+    "category": "ropa",
+    "currency": "USD",
+    "added": "2025-05-01",
+    "target_price": 90,
+    "demo": true
+  },
+  {
+    "id": "q-demo-ipad-pro",
+    "query": "ipad pro 11 m4",
+    "name": "iPad Pro 11\" (ejemplo)",
+    "category": "electronica",
+    "currency": "USD",
+    "added": "2025-08-01",
+    "exclude": "case, cover",
+    "demo": true
+  }
+]

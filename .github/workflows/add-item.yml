@@ -14,8 +14,8 @@ concurrency:
 
 jobs:
   add:
-    # solo issues del formulario y creados por la dueña del repo
-    if: contains(github.event.issue.labels.*.name, 'nuevo-articulo') && github.event.issue.user.login == github.repository_owner
+    # solo issues de los formularios y creados por la dueña del repo
+    if: (contains(github.event.issue.labels.*.name, 'nuevo-articulo') || contains(github.event.issue.labels.*.name, 'nueva-busqueda')) && github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,7 +31,11 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/add_item.py
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          IS_SEARCH: ${{ contains(github.event.issue.labels.*.name, 'nueva-busqueda') }}
+        run: |
+          if [ "$IS_SEARCH" = "true" ]; then python scripts/add_search.py; else python scripts/add_item.py; fi
       - name: Guardar cambios
         if: steps.add.outputs.ok == 'true'
         run: |

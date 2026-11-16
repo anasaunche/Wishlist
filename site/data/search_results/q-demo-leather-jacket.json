@@ -1,0 +1,111 @@
+{
+  "query": "women's leather jacket",
+  "checked": "2026-11-16T01:00:22+00:00",
+  "currency": "USD",
+  "offers": [
+    {
+      "title": "Genuine Leather Biker Jacket",
+      "store": "Amazon.com",
+      "price": 71.22,
+      "old_price": null,
+      "rating": 4.8,
+      "reviews": 640,
+      "link": "https://example.com/oferta/1",
+      "image": null,
+      "store_id": "amazon",
+      "quality": 84,
+      "score": 92
+    },
+    {
+      "title": "Belted Leather Jacket",
+      "store": "Walmart",
+      "price": 84.61,
+      "old_price": null,
+      "rating": 3.8,
+      "reviews": 2300,
+      "link": "https://example.com/oferta/7",
+      "image": null,
+      "store_id": "walmart",
+      "quality": 20,
+      "score": 53
+    },
+    {
+      "title": "Classic Leather Bomber",
+      "store": "Nordstrom",
+      "price": 84.93,
+      "old_price": 106.16,
+      "rating": 4.9,
+      "reviews": 640,
+      "link": "https://example.com/oferta/4",
+      "image": null,
+      "store_id": "nordstrom",
+      "quality": 90,
+      "score": 88
+    },
+    {
+      "title": "Faux Leather Moto Jacket",
+      "store": "H&M",
+      "price": 85.41,
+      "old_price": 106.76,
+      "rating": null,
+      "reviews": 2300,
+      "link": "https://example.com/oferta/0",
+      "image": null,
+      "store_id": "hm",
+      "quality": 20,
+      "score": 53
+    },
+    {
+      "title": "Leather Racer Jacket",
+      "store": "Macy's",
+      "price": 116.88,
+      "old_price": null,
+      "rating": 4.4,
+      "reviews": 35,
+      "link": "https://example.com/oferta/6",
+      "image": null,
+      "store_id": "macys",
+      "quality": 42,
+      "score": 49
+    },
+    {
+      "title": "Vegan Leather Jacket",
+      "store": "Target",
+      "price": 125.41,
+      "old_price": null,
+      "rating": null,
+      "reviews": 2300,
+      "link": "https://example.com/oferta/5",
+      "image": null,
+      "store_id": "target",
+      "quality": 20,
+      "score": 34
+    },
+    {
+      "title": "Cropped Leather Jacket",
+      "store": "Forever 21",
+      "price": 136.6,
+      "old_price": null,
+      "rating": 3.7,
+      "reviews": 8,
+      "link": "https://example.com/oferta/2",
+      "image": null,
+      "store_id": "forever21",
+      "quality": 19,
+      "score": 28
+    },
+    {
+      "title": "Oversized Leather Blazer Jacket",
+      "store": "Zara",
+      "price": 173.96,
+      "old_price": null,
+      "rating": 4.2,
+      "reviews": 2300,
+      "link": "https://example.com/oferta/3",
+      "image": null,
+      "store_id": "zara",
+      "quality": 46,
+      "score": 23
+    }
+  ]
+}

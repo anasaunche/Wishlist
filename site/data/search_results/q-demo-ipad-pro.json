@@ -1,0 +1,72 @@
+{
+  "query": "ipad pro 11 m4",
+  "checked": "2026-11-16T01:00:22+00:00",
+  "currency": "USD",
+  "offers": [
+    {
+      "title": "iPad Pro 11-inch M4 256GB Space Black",
+      "store": "Best Buy",
+      "price": 845.76,
+      "old_price": null,
+      "rating": 4.6,
+      "reviews": 120,
+      "link": "https://example.com/oferta/2",
+      "image": null,
+      "store_id": "bestbuy",
+      "quality": 63,
+      "score": 82
+    },
+    {
+      "title": "Apple iPad Pro 11-inch (M4) 256GB Wi-Fi",
+      "store": "Amazon.com",
+      "price": 924.91,
+      "old_price": 1156.14,
+      "rating": null,
+      "reviews": 8,
+      "link": "https://example.com/oferta/0",
+      "image": null,
+      "store_id": "amazon",
+      "quality": 20,
+      "score": 34
+    },
+    {
+      "title": "Apple iPad Pro 11 (M4) Renewed",
+      "store": "eBay - refurb",
+      "price": 943.79,
+      "old_price": null,
+      "rating": 4.5,
+      "reviews": 640,
+      "link": "https://example.com/oferta/3",
+      "image": null,
+      "store_id": "ebay",
+      "quality": 65,
+      "score": 50
+    },
+    {
+      "title": "Apple iPad Pro 11 M4 256GB",
+      "store": "Walmart",
+      "price": 989.08,
+      "old_price": null,
+      "rating": 3.7,
+      "reviews": 2300,
+      "link": "https://example.com/oferta/1",
+      "image": null,
+      "store_id": "walmart",
+      "quality": 13,
+      "score": 10
+    },
+    {
+      "title": "Apple iPad Pro 11-inch M4 Wi-Fi 256GB",
+      "store": "Target",
+      "price": 998.82,
+      "old_price": 1248.53,
+      "rating": 4.8,
+      "reviews": 640,
+      "link": "https://example.com/oferta/4",
+      "image": null,
+      "store_id": "target",
+      "quality": 84,
+      "score": 42
+    }
+  ]
+}

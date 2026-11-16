@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths: ["site/**"]
   workflow_run:
-    workflows: ["Revisar precios", "Agregar artículo"]
+    workflows: ["Revisar precios", "Agregar artículo", "Buscar en tiendas"]
     types: [completed]
   workflow_dispatch:
 
