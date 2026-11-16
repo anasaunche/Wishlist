@@ -1,0 +1,67 @@
+name: "➕ Agregar artículo"
+description: Agrega un producto a tu wishlist (o registra su precio a mano)
+title: "Agregar: "
+labels: ["nuevo-articulo"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL del producto
+      placeholder: https://www.tienda.com/producto/123
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Nombre
+      description: Opcional. Si lo dejas vacío uso el título de la página.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoría
+      options:
+        - Ropa
+        - Zapatos
+        - Electrónica
+        - Gadgets
+        - Hogar
+        - Belleza
+        - Accesorios
+        - Deportes
+        - Libros
+        - Otros
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Precio objetivo
+      description: Opcional. Te aviso cuando llegue a este precio o menos.
+      placeholder: "120"
+  - type: dropdown
+    id: currency
+    attributes:
+      label: Moneda
+      options:
+        - USD
+        - MXN
+        - COP
+        - ARS
+        - CLP
+        - PEN
+        - EUR
+  - type: input
+    id: image
+    attributes:
+      label: Imagen (URL)
+      description: Opcional. Si la tienda no expone imagen, pega aquí el enlace a una.
+  - type: input
+    id: manual
+    attributes:
+      label: Precio actual
+      description: Opcional. Úsalo solo si la tienda bloquea la lectura automática del precio.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas
+      description: Talla, color, etc.

@@ -1,0 +1,26 @@
+{
+  "title": "Mi Wishlist",
+  "currency": "USD",
+  "locale": "es-MX",
+  "alert_drop_pct": 10,
+  "site_url": "",
+  "price_ranges": [
+    { "label": "Hasta $50", "min": 0, "max": 50 },
+    { "label": "$50 – $100", "min": 50, "max": 100 },
+    { "label": "$100 – $250", "min": 100, "max": 250 },
+    { "label": "$250 – $500", "min": 250, "max": 500 },
+    { "label": "Más de $500", "min": 500, "max": null }
+  ],
+  "categories": [
+    { "id": "ropa", "label": "Ropa", "emoji": "👗" },
+    { "id": "zapatos", "label": "Zapatos", "emoji": "👟" },
+    { "id": "electronica", "label": "Electrónica", "emoji": "💻" },
+    { "id": "gadgets", "label": "Gadgets", "emoji": "⌚" },
+    { "id": "hogar", "label": "Hogar", "emoji": "🏠" },
+    { "id": "belleza", "label": "Belleza", "emoji": "💄" },
+    { "id": "accesorios", "label": "Accesorios", "emoji": "👜" },
+    { "id": "deportes", "label": "Deportes", "emoji": "🏋️" },
+    { "id": "libros", "label": "Libros", "emoji": "📚" },
+    { "id": "otros", "label": "Otros", "emoji": "✨" }
+  ]
+}

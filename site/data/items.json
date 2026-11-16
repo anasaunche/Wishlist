@@ -1,0 +1,50 @@
+[
+  {
+    "id": "demo-audifonos",
+    "name": "Audífonos inalámbricos con cancelación de ruido (ejemplo)",
+    "url": "https://example.com/audifonos",
+    "category": "electronica",
+    "currency": "USD",
+    "target_price": 230,
+    "added": "2025-01-10",
+    "demo": true
+  },
+  {
+    "id": "demo-tenis",
+    "name": "Tenis para correr (ejemplo)",
+    "url": "https://example.com/tenis",
+    "category": "zapatos",
+    "currency": "USD",
+    "added": "2025-06-02",
+    "demo": true
+  },
+  {
+    "id": "demo-chamarra",
+    "name": "Chamarra impermeable (ejemplo)",
+    "url": "https://example.com/chamarra",
+    "category": "ropa",
+    "currency": "USD",
+    "target_price": 80,
+    "added": "2025-09-15",
+    "demo": true
+  },
+  {
+    "id": "demo-cafetera",
+    "name": "Cafetera de espresso (ejemplo)",
+    "url": "https://example.com/cafetera",
+    "category": "hogar",
+    "currency": "USD",
+    "added": "2024-12-01",
+    "demo": true
+  },
+  {
+    "id": "demo-reloj",
+    "name": "Reloj inteligente (ejemplo)",
+    "url": "https://example.com/reloj",
+    "category": "gadgets",
+    "currency": "USD",
+    "target_price": 180,
+    "added": "2025-03-20",
+    "demo": true
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "demo-audifonos": {
+    "price": 215.0,
+    "currency": "USD",
+    "previous": 349.0,
+    "checked": "2026-11-16T00:43:25+00:00",
+    "min": 215.0,
+    "min_date": "2026-11-16",
+    "max": 366.0,
+    "max_date": "2025-01-30",
+    "avg": 324.7,
+    "points": 391
+  },
+  "demo-tenis": {
+    "price": 147.0,
+    "currency": "USD",
+    "previous": 140.0,
+    "checked": "2026-11-16T00:43:25+00:00",
+    "min": 95.0,
+    "min_date": "2026-02-15",
+    "max": 151.0,
+    "max_date": "2025-09-29",
+    "avg": 133.01,
+    "points": 308
+  },
+  "demo-chamarra": {
+    "price": 116.0,
+    "currency": "USD",
+    "previous": 116.0,
+    "checked": "2026-11-16T00:43:25+00:00",
+    "min": 90.0,
+    "min_date": "2025-12-08",
+    "max": 139.0,
+    "max_date": "2026-09-05",
+    "avg": 122.59,
+    "points": 254
+  },
+  "demo-cafetera": {
+    "price": 499.0,
+    "currency": "USD",
+    "previous": 499.0,
+    "checked": "2026-11-16T00:43:25+00:00",
+    "min": 385.0,
+    "min_date": "2025-07-11",
+    "max": 524.0,
+    "max_date": "2025-06-12",
+    "avg": 471.88,
+    "points": 417
+  },
+  "demo-reloj": {
+    "price": 249.0,
+    "currency": "USD",
+    "previous": 249.0,
+    "checked": "2026-11-16T00:43:25+00:00",
+    "min": 200.0,
+    "min_date": "2025-07-04",
+    "max": 269.0,
+    "max_date": "2025-06-21",
+    "avg": 242.67,
+    "points": 344
+  }
+}

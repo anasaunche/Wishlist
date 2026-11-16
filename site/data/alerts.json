@@ -1,0 +1,18 @@
+[
+  {
+    "id": "demo-audifonos-1",
+    "item_id": "demo-audifonos",
+    "name": "Audífonos inalámbricos con cancelación de ruido (ejemplo)",
+    "date": "2026-11-16T00:43:25+00:00",
+    "old": 349.0,
+    "new": 215.0,
+    "pct": 38.4,
+    "currency": "USD",
+    "reasons": [
+      "📉 Bajó 38% desde el último precio",
+      "🏆 Precio más bajo de los últimos 2 años",
+      "🎯 Llegó a tu precio objetivo (USD $230)"
+    ],
+    "url": "https://example.com/audifonos"
+  }
+]

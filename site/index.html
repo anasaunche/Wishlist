@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mi Wishlist</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎁</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <h1 class="brand"><span aria-hidden="true">🎁</span> <span id="site-title">Mi Wishlist</span></h1>
+      <div class="search">
+        <input id="search" type="search" placeholder="Buscar…" aria-label="Buscar artículos">
+      </div>
+      <button id="bell" class="icon-btn" aria-label="Notificaciones" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg>
+        <span id="bell-count" class="badge-count" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <div id="banner" class="wrap" hidden></div>
+
+  <main class="wrap">
+    <section class="summary" id="summary"></section>
+
+    <section class="filters" aria-label="Filtros">
+      <div class="filter-row">
+        <span class="filter-label">Tipo</span>
+        <div id="cat-chips" class="chips"></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Precio</span>
+        <div id="price-chips" class="chips"></div>
+        <div class="price-custom">
+          <input id="pmin" type="number" min="0" inputmode="decimal" placeholder="mín" aria-label="Precio mínimo">
+          <span>–</span>
+          <input id="pmax" type="number" min="0" inputmode="decimal" placeholder="máx" aria-label="Precio máximo">
+        </div>
+      </div>
+      <div class="filter-row filter-row-end">
+        <label class="toggle"><input type="checkbox" id="only-deals"> Solo buenos precios</label>
+        <label class="toggle"><input type="checkbox" id="show-bought"> Mostrar comprados</label>
+        <select id="sort" aria-label="Ordenar">
+          <option value="deal">Mejor oportunidad</option>
+          <option value="recent">Agregados recientemente</option>
+          <option value="price-asc">Precio: menor a mayor</option>
+          <option value="price-desc">Precio: mayor a menor</option>
+          <option value="name">Nombre</option>
+        </select>
+      </div>
+    </section>
+
+    <p id="count" class="count"></p>
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <div id="empty" class="empty" hidden>
+      <p>No hay artículos que coincidan con los filtros.</p>
+    </div>
+  </main>
+
+  <footer class="wrap footer">
+    <span id="last-check"></span>
+  </footer>
+
+  <!-- Detalle del artículo -->
+  <dialog id="detail" class="modal" aria-labelledby="d-name">
+    <button class="close" data-close aria-label="Cerrar">×</button>
+    <div class="detail-grid">
+      <div class="detail-media"></div>
+      <div class="detail-info">
+        <div id="d-tags" class="tags"></div>
+        <h2 id="d-name"></h2>
+        <div class="d-price-row">
+          <span id="d-price" class="d-price"></span>
+          <span id="d-delta"></span>
+        </div>
+        <div id="d-verdict" class="verdict"></div>
+        <dl id="d-stats" class="stats"></dl>
+        <p id="d-notes" class="notes"></p>
+        <a id="d-buy" class="btn-primary" target="_blank" rel="noopener noreferrer">Ir a la tienda ↗</a>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head">
+        <h3>Historial de precios</h3>
+        <div id="ranges" class="seg" role="group" aria-label="Rango">
+          <button data-days="30">1M</button>
+          <button data-days="90">3M</button>
+          <button data-days="180">6M</button>
+          <button data-days="365">1A</button>
+          <button data-days="730" class="on">2A</button>
+        </div>
+      </div>
+      <div id="chart" class="chart"></div>
+    </div>
+  </dialog>
+
+  <!-- Notificaciones -->
+  <dialog id="notifs" class="modal modal-side" aria-labelledby="n-title">
+    <button class="close" data-close aria-label="Cerrar">×</button>
+    <h2 id="n-title">Bajadas de precio</h2>
+    <div class="notif-actions"><button id="mark-read" class="btn-ghost">Marcar todo como leído</button></div>
+    <ul id="notif-list" class="notif-list"></ul>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
