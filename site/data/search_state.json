@@ -68,7 +68,37 @@
     "points": 238
   },
   "q-playstation-5": {
-    "checked": "2026-11-16T01:05:29+00:00",
-    "error": "Falta la clave de búsqueda: agrega el secret SERPAPI_KEY o SERPER_API_KEY."
+    "checked": "2026-11-16T23:02:35+00:00",
+    "price": 499.0,
+    "currency": "USD",
+    "previous": null,
+    "count": 29,
+    "stores": 11,
+    "cheapest": {
+      "title": "Sony PlayStation 5 Digital Edition",
+      "store": "PlayStation",
+      "price": 499.0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7126033585643939278,gpcid:1616130161730219116,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRq9qcDLcZfR8NhuG9Dunbr6fF5TRMMZIBmdyNhrNadloKizJTIh6A_4J_6krfBSdmejmD_IOp0_29leX-6973OrKU3kVlcNOQAEt1Z3hOnHKxgHCoRtONC",
+      "rating": null,
+      "reviews": 0
+    },
+    "best_value": {
+      "title": "Sony PlayStation 5 Console",
+      "store": "GameStop",
+      "price": 569.99,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:1119636054962305856,gpcid:7204905870497364494,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRYVa1zqXyjYUTldFudrng02YVnsIlZxeAohJj8z3se2NL_d2teSaOZl1PiShdZ2Z5v5bzKamiN-WxtSLWTufeUyeLbFy5ds7YRCn6ey_joWrnWyCxpogIMdA",
+      "rating": 4.6,
+      "reviews": 37000,
+      "score": 83
+    },
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRq9qcDLcZfR8NhuG9Dunbr6fF5TRMMZIBmdyNhrNadloKizJTIh6A_4J_6krfBSdmejmD_IOp0_29leX-6973OrKU3kVlcNOQAEt1Z3hOnHKxgHCoRtONC",
+    "min": 499.0,
+    "min_date": "2026-11-16",
+    "max": 499.0,
+    "max_date": "2026-11-16",
+    "avg": 499.0,
+    "points": 1
   }
 }
