@@ -1,21 +1,8 @@
 {
   "query": "Playstation 5",
-  "checked": "2026-11-17T21:54:36+00:00",
+  "checked": "2026-11-18T21:37:26+00:00",
   "currency": "USD",
   "offers": [
-    {
-      "title": "Sony PlayStation 5 Console Slim Digital Version 825GB",
-      "store": "Memorabid",
-      "price": 330.21,
-      "rating": 4.7,
-      "reviews": 3200,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:3576465185937533849,gpcid:390479713998266085,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcScuu1xN79NCTsQ7bi2L2g_5-2OL0thvOCk3yUoF-fR1W4d071DTDdsAeXKFUl3bKkFyOuH43-7tkwwCdJCMuT0V4D_Olf5TXts3XjmFh0SV5wrmfyRKdsiyQ",
-      "delivery": null,
-      "store_id": null,
-      "quality": 79,
-      "score": 90
-    },
     {
       "title": "Sony PlayStation 5 Digital Edition",
       "store": "PlayStation",
@@ -27,85 +14,20 @@
       "delivery": null,
       "store_id": null,
       "quality": 20,
-      "score": 53
-    },
-    {
-      "title": "Sony PlayStation 5 Console Digital Edition",
-      "store": "GameStop",
-      "price": 589.99,
-      "rating": 4.5,
-      "reviews": 6700,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:4887235756540435899,gpcid:1515299804387100259,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRbTlz08DxxqPMC_sUW-sCprR5ca7j6hycop3Uatm_VHc-frZCGAjXHyluq8iO_JvPwtzZj9azclZ2c8AIbn9bBpQTyrglPG1o-3mlWgrtn0bLnoGlSeK2m",
-      "delivery": null,
-      "store_id": null,
-      "quality": 66,
-      "score": 72
-    },
-    {
-      "title": "Sony PlayStation 5 Digital Edition Console",
-      "store": "GameStop",
-      "price": 589.99,
-      "rating": 4.5,
-      "reviews": 1100,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:6010251138648116246,gpcid:9598684369884192690,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRbTlz08DxxqPMC_sUW-sCprR5ca7j6hycop3Uatm_VHc-frZCGAjXHyluq8iO_JvPwtzZj9azclZ2c8AIbn9bBpQTyrglPG1o-3mlWgrtn0bLnoGlSeK2m",
-      "delivery": null,
-      "store_id": null,
-      "quality": 65,
-      "score": 71
+      "score": 60
     },
     {
       "title": "Sony PlayStation 5 Console Slim Digital Edition",
-      "store": "Target",
-      "price": 599.99,
+      "store": "Walmart",
+      "price": 599.0,
       "rating": 4.4,
       "reviews": 3900,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:9462261224435293319,gpcid:9937262968512157581,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwh2DuWfBZKwZ2Pr82HzdyCUHue9Q3mHf5M7FsbXmmBAA56e_cwA_C1QHOgIIgTkLikq3fG81SOM8kc5nxh8VeV9FB0luGC7Pv8FzdsoB8Khqab8Jn8d6R_A",
-      "delivery": null,
-      "store_id": "target",
-      "quality": 60,
-      "score": 68
-    },
-    {
-      "title": "Sony PlayStation 5 Console",
-      "store": "GameStop",
-      "price": 599.99,
-      "rating": 4.6,
-      "reviews": 37000,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:10524277138463159062,gpcid:7204905870497364494,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSHnxIVxinePlQQ7K_Xq7YokGKETlB3eZeTbPy9UV9gKKfwXNHhlvsqUXU_CTrzeCa-deDW428VodilZinxWYDxIFay3KDTJiRdgbRh5UI82k2uRQjHgSpcZg",
-      "delivery": null,
-      "store_id": null,
-      "quality": 73,
-      "score": 75
-    },
-    {
-      "title": "PlayStation 5 Digital Edition Console 825 GB",
-      "store": "ShareShopShip",
-      "price": 600.0,
-      "rating": null,
-      "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7951379744857676203,gpcid:14210637270658339396,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6bW5CszzN27EIuJZdHpzvgCNaxdL2ORrTCm8UOLTmhOZU1b5kcsTdOM0BysA5gyX1HaNvrXIM4X3YOu2rcudWxML1j8R-swp8SzBIDDqq8HjPYItiSaOQWQ",
-      "delivery": null,
-      "store_id": null,
-      "quality": 20,
-      "score": 48
-    },
-    {
-      "title": "Sony PlayStation 5 Slim Disc Console",
-      "store": "Walmart",
-      "price": 649.0,
-      "rating": 4.5,
-      "reviews": 5200,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:18027009480412758698,gpcid:10464915926174910073,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSKFNtJ3JHyya4yvDj-VA4u0xB5gNiwDfEKCYzZQ5KDJNDC9itIa__H2_Wi6PbQxpXcCtF5JQ98RU0hYPDQnG8kEo82Kzmnlly69KyusyKJV-6sIRos9UNc1w",
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:9462261224435293319,gpcid:6261171866791939995,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS-lPxbvCUDulnaFUxD3keZgK9uouBsqzcvgmSbUmX-ZsyDvFyKNLH2GurcfLb7HfLFqlKqhHuUN3m2zWZUI6zfbmXtRnVr6wGBQ7rOE22F3dNxKlF2CsFFkQ",
       "delivery": null,
       "store_id": "walmart",
-      "quality": 66,
-      "score": 69
+      "quality": 60,
+      "score": 77
     },
     {
       "title": "PlayStation 5 Digital Edition – Marvel's Wolverine Battle Limited Edition Bundle– 825GB",
@@ -118,20 +40,33 @@
       "delivery": null,
       "store_id": null,
       "quality": 64,
-      "score": 68
+      "score": 77
     },
     {
-      "title": "PlayStation 5 Slim Console 1TB + Bundle Pack Bundle Includes",
-      "store": "DKOldies",
+      "title": "Sony PlayStation 5 Slim Disc Console",
+      "store": "GameStop",
       "price": 649.99,
-      "rating": null,
-      "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:4088163616163322360,gpcid:11381181323330524398,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTJMRy9fCUCA_gFngx8xYi6wuCNft_Aave49U4ncGXSPfK6DdC_AfXDJyOYTFH5_0zFCt1Ce5_vGccr-SA_15xZYLdP00lzi9ISi1apcacG1k85CeB-I-xx",
+      "rating": 4.5,
+      "reviews": 5200,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:18027009480412758698,gpcid:10464915926174910073,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTUZ6nQBgXH4F_Swys5OcchazP33dRf5CZ8mt1MEeWBWfAR5jrz4x90XuKQFoQwblHKY7A-cPUw-PqMzjyDS2l7WyVVoocCCZHmKob8hpEaXbqsasPCgRr02A",
       "delivery": null,
       "store_id": null,
-      "quality": 20,
-      "score": 46
+      "quality": 66,
+      "score": 78
+    },
+    {
+      "title": "Sony Playstation 5 Slim + PS5 DUALSENSE Grey Camo",
+      "store": "Walmart",
+      "price": 673.88,
+      "rating": 5.0,
+      "reviews": 9,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:10462142948681862027,gpcid:2982410263679214682,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTFRPouQNZ8vK7CleWujMVRO08kKynFgN9NmE3EvGMyAkDmGM_J4u2EYuvmwiSHkdWc-KaNRRZfS-FzZSlZP4KuoZ8VQQ0dDUvgsEexh80",
+      "delivery": null,
+      "store_id": "walmart",
+      "quality": 38,
+      "score": 63
     },
     {
       "title": "Playstation 5 Digital Edition 825gb Plus Dualsense Wireless Controller – Midnight Black",
@@ -144,33 +79,7 @@
       "delivery": null,
       "store_id": "walmart",
       "quality": 20,
-      "score": 45
-    },
-    {
-      "title": "Sony PS5 Slim Console with DualSense and Accessories",
-      "store": "Sears - Entrotek",
-      "price": 699.99,
-      "rating": 3.9,
-      "reviews": 36,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:1033753251516914746,gpcid:5477776644339657967,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSj4oRZNSPLMzbaKQ0qHOrp5GvSJ4fqO2SuhXiL_7xo6IFEtIX80qXDe0rA7GQDXGbHhfWwe4IeJoVwLnx6wONvatJG9GYU4f6JDVDxcqgJUqQXkrUyJd92",
-      "delivery": null,
-      "store_id": null,
-      "quality": 24,
-      "score": 46
-    },
-    {
-      "title": "Sony Playstation 5 Slim + PS5 DUALSENSE Grey Camo",
-      "store": "Walmart",
-      "price": 723.88,
-      "rating": 5.0,
-      "reviews": 9,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:10462142948681862027,gpcid:2982410263679214682,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTnOPB7TOWsOgag38abX2MvT_gZhD4yrTp-Jzz_eLj1r1blty8uT0Mx4Jz-tORKGzTZhrmmCeVVvswr1uP9kNradkG0gb0GUyEBhopVIZNhS85eZ0UHTfCe",
-      "delivery": null,
-      "store_id": "walmart",
-      "quality": 38,
-      "score": 52
+      "score": 54
     },
     {
       "title": "Ps5 Slim Digital Console and Accessories Kit",
@@ -183,38 +92,25 @@
       "delivery": null,
       "store_id": "macys",
       "quality": 12,
-      "score": 39
+      "score": 48
     },
     {
-      "title": "PlayStation 5 Standard Edition incl. Spiderman 2 ? 16GB / 825GB SSD? Drive",
-      "store": "Glocalzone",
-      "price": 746.91,
-      "rating": 5.0,
-      "reviews": 25,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:10302545139925506454,gpcid:469934315841160340,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9Ok9ZRbYnAZYrP6wVCxxKBm_p1chPH0pFKsDmrhOEfIQo2pJBQe7LPaEbzX8qMCXCX_lVjy3YwmryLHdNczboKYDgHJNK5IobfoeKKfgMcuimWcrTDWiZog",
+      "title": "Sony PlayStation 5 Console Digital Edition",
+      "store": "Walmart - HyperTech",
+      "price": 749.99,
+      "rating": 4.5,
+      "reviews": 6700,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8039622388823297908,gpcid:1515299804387100259,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxsE7zvOU5x8hSxcGgSuG9K30RksWmZdSNHbAL4UCYLRKm9aLF6Q0cZx9vEBcBJbfU4XY1MAY9bEplKoB7yF2elQLJr-6avFjGV3YJazr1UrHuZkf8tpOGNuyH",
       "delivery": null,
-      "store_id": null,
-      "quality": 56,
-      "score": 60
-    },
-    {
-      "title": "Sony PlayStation 5 Console Ghost of Yotei Gold Limited Edition Bundle",
-      "store": "GameStop",
-      "price": 769.99,
-      "rating": 4.1,
-      "reviews": 143,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:14319911329195968419,gpcid:14585298176101232683,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6pq9tuJ2VagpZWZ4Lx9bV1wZaEuriCeXlzpcIfOLFNiJMcuf-ETWX9Py7kBMPjxkNKH8g_pBd8hARsSDybfuysY77t3AU9W1OZXLW2AYSTi1YHrr-TzJj6w",
-      "delivery": null,
-      "store_id": null,
-      "quality": 37,
-      "score": 50
+      "store_id": "walmart",
+      "quality": 66,
+      "score": 75
     },
     {
       "title": "Sony PlayStation 5 Digital Edition Console Two DualSense Wireless Controllers Bundle*",
       "store": "Best Buy",
-      "price": 769.99,
+      "price": 799.99,
       "rating": 4.0,
       "reviews": 144,
       "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:12446628273660529356,gpcid:16122158677888382294,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
@@ -222,20 +118,7 @@
       "delivery": null,
       "store_id": "bestbuy",
       "quality": 31,
-      "score": 47
-    },
-    {
-      "title": "Sony PlayStation 5 Slim Digital Edition Console 825GB SSD",
-      "store": "Grooves-Inc.com",
-      "price": 783.59,
-      "rating": 4.7,
-      "reviews": 3200,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:16742162258702997751,gpcid:2144536738745672017,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTSiSqjUIjc2GZM0JARWxM8myve9Ai2NK6LWpEUGlVTWWG_C5wq4upcWkUxFC2ZBNPzDBOS1kvQcExCVCF3hFWaTgjfHt9j0_ZSSmKJZ8uqpnDYc8TVHwNOjw",
-      "delivery": null,
-      "store_id": null,
-      "quality": 79,
-      "score": 70
+      "score": 56
     },
     {
       "title": "Sony PlayStation 5 Slim Disc Console Call of Duty",
@@ -248,7 +131,46 @@
       "delivery": null,
       "store_id": null,
       "quality": 29,
-      "score": 44
+      "score": 55
+    },
+    {
+      "title": "Playstation 5 Slim Digital 825gb SSD Console with Two Controllers, White and Sterling Silver DualSense and Dual Controller Charger - PS5 Slim Digital",
+      "store": "Walmart - HyperTech",
+      "price": 824.99,
+      "rating": null,
+      "reviews": 0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:13288451064707186512,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSounOZrbbbAgjgiZbEexibNjZIQSqZRLt4CNkGdjtqcG9Hfey6RFV84kwq4AJjbgYLuqVlZwqUyFqcpFjfgfEYBfrVWJOj7jR2wBOVW0taJqRiS7GDMU-C",
+      "delivery": null,
+      "store_id": "walmart",
+      "quality": 20,
+      "score": 49
+    },
+    {
+      "title": "Sony PlayStation 5 Console",
+      "store": "Best Buy",
+      "price": 829.3,
+      "rating": 4.3,
+      "reviews": 754,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:15727662008325628668,gpcid:8919930356447656571,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS2x3cI16wS_kepUTMSVaVJYUQpevij3ROHYrVU05r-0PaA1wlwJODeFmN506nqdmgtnwpnAyHEH99c0jSed8i1hjRUY5U_DM1ZQWLmQ525",
+      "delivery": null,
+      "store_id": "bestbuy",
+      "quality": 52,
+      "score": 65
+    },
+    {
+      "title": "Playstation 5 Slim Digital 825gb SSD Console with Two Controllers, White and Chroma Teal DualSense and Dual Controller Charger - PS5 Slim Digital",
+      "store": "Walmart - HyperTech",
+      "price": 829.99,
+      "rating": null,
+      "reviews": 0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:17904806720634119731,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzZuCMWmb9Bis0my6vcOEGMgrhUCNht_13KN-3EcdVbLIhQEP9CtNEbidVcBeFqIIGBe3gB3K_J7aGae_KcSNwDFTA1li3HsIoHPSaB7s-B9WgDX3NCDvk",
+      "delivery": null,
+      "store_id": "walmart",
+      "quality": 20,
+      "score": 49
     },
     {
       "title": "Playstation 5 Digital Edition Plus Playstation Portal Remote Player",
@@ -261,51 +183,77 @@
       "delivery": null,
       "store_id": "walmart",
       "quality": 20,
-      "score": 38
+      "score": 49
     },
     {
-      "title": "Sony PS5 Slim Digital Console with Accessories Kit and Voucher",
-      "store": "Lowe's",
-      "price": 849.99,
+      "title": "Sony PlayStation 5 Console 1TB",
+      "store": "Best Buy",
+      "price": 849.36,
+      "rating": 4.1,
+      "reviews": 397,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:6864404469306035575,gpcid:15085474951002737254,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS61Ll-K0MKUgJIxLxh3CKIiCjABSHVgm5MKc3kXFgnP2iyN5mPEV8vXYK7RbiY2sR5etHylbhzMe_1esfIPOFTvZyhxjS_56RRk-nU-Vk",
+      "delivery": null,
+      "store_id": "bestbuy",
+      "quality": 39,
+      "score": 58
+    },
+    {
+      "title": "Sony PlayStation 5 Slim Digital Edition Fortnite Flowering Chaos Bundle 825GB Console with 2 DualSense Controllers Bundle",
+      "store": "Best Buy",
+      "price": 874.99,
       "rating": null,
       "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8885306176620285467,gpcid:13904728288073020232,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRq5z3WvrT3oY9gyGYzGnJWhl317jakiswD4SpAgVjv2u1eez4sOs9A9rj1rL0k8Uz-3-MnG7Xa19cltP34kml2iy8cibK0hBADF5vkDhKYXmwUiBjLZcLiXQ",
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7557471908095494663,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSuuFXK806SWSmFLNrm-2fbafyihYBJ9Vgw4XL0Uma0pS_VO5cvODq7dFdwZfYs8Dbup4pCPE0DuJKSB7msMoAXCRy-LWthrCHM8iUaHjFv8mbh51dhX6Fn",
       "delivery": null,
-      "store_id": null,
+      "store_id": "bestbuy",
       "quality": 20,
-      "score": 38
+      "score": 48
     },
     {
-      "title": "Playstation 5 Disc Edition with Two DualSense Controllers and Mytrix Dual Controller Charger",
-      "store": "Newegg.com - GeekShopping",
-      "price": 904.99,
+      "title": "Sony PlayStation 5 Slim Console Marvel's Spider-Man 2 Bundle",
+      "store": "Walmart",
+      "price": 879.99,
+      "rating": 4.2,
+      "reviews": 744,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:9453334717054719616,gpcid:18106759832939477059,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhviWplNbgyqaU5pZGgGGh8Yhbq3o4s7w7vOJ7PmV-s2u-yzovKuDTJZhwOXrCObvUuhGeQLAI2BAvI9Ek3phGGp9p-o-2tUF6znsuLMn0sfu3f3zxmX5pWQ",
+      "delivery": null,
+      "store_id": "walmart",
+      "quality": 46,
+      "score": 61
+    },
+    {
+      "title": "PlayStation 5 Disc Edition Call of Duty Modern Warfare II Bundle with Resident Evil 8 and Mytrix Controller Charger",
+      "store": "Walmart - HyperTech",
+      "price": 894.99,
       "rating": null,
       "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:2430798538718245883,gpcid:9257488136715225297,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSuJ-OCaLOPvmzl3BOrxL8MIjy7FRhTkITwewLESNVGfh8L2hjDXy3eKUJV6eQScXflfbVPcwcF7lKkmVrx9aXEkuRhFQ2sGvCjqySrdVpAxrVd5KG3yBPoKg",
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:1138607406319713587,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSaOxJMhEto0xDDh8R_fDiKNHzWYFfbwjKVrCQeMYhiubIkvNb28iLlSiAMUA22ouABdhg6TD2cw3b4jUHsPIn4EVZRa-3HxjZhsvm0kw-Sb0yM4KpOjsWO",
       "delivery": null,
-      "store_id": null,
+      "store_id": "walmart",
       "quality": 20,
-      "score": 35
+      "score": 47
     },
     {
-      "title": "PlayStation 5 Disc Edition with Two Controllers White and DualSense and Mytrix Dual Controller Charger",
-      "store": "Newegg.com - GeekShopping",
+      "title": "Sony PlayStation 5 Slim Console Digital Edition",
+      "store": "Best Buy",
       "price": 909.99,
-      "rating": 4.7,
-      "reviews": 3,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:15037203881174005254,gpcid:3818531712182151618,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtcFueiZ0X7fRi0QSiLwBpJl1aj9NDm9PGO_SqH0L-AP_rAwYCKPA7fRXYgRFL9xbUwE5MBsM0Irgb6zhRQalwgqSoZnUnV2JLFHVijpKM2aE1XMNOYKaF",
+      "rating": 4.2,
+      "reviews": 160,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:5163164054996004287,gpcid:12175211532584975787,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKBvaDmXaqR-2AmP8WDphdbfKT1Tb3zDIfeSrhDZ1XdJFL7bnJpFuZizrnvQrCRK69waIEQjfk-tk4FfznCUSLbGJf4PE6I3kOzvSkALL4",
       "delivery": null,
-      "store_id": null,
-      "quality": 25,
-      "score": 38
+      "store_id": "bestbuy",
+      "quality": 42,
+      "score": 58
     },
     {
       "title": "Sony PlayStation 5 Digital Edition Call of Duty",
       "store": "Best Buy",
-      "price": 947.01,
+      "price": 944.01,
       "rating": 4.0,
       "reviews": 90,
       "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8166421167728088367,gpcid:7735829677486400835,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
@@ -313,7 +261,20 @@
       "delivery": null,
       "store_id": "bestbuy",
       "quality": 30,
-      "score": 39
+      "score": 51
+    },
+    {
+      "title": "Playstation 5 Slim Digital 1.8tb SSD Console with Two Controllers, White and Starlight Blue DualSense and Dual Controller Charger - PS5 Slim Digital",
+      "store": "Walmart - HyperTech",
+      "price": 994.99,
+      "rating": null,
+      "reviews": 0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:15926211979039970687,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRmgSfAWNtDCfRWcMqQmZL0VG9Nrxh8En2G_WRCwk33X73WYDz6El9GbGmpd151O91qKdTPvYQ3sxPPW6l3spFKzauRUaCjKZsqA1xWJe2Mn3xyViRA8YrOBQ",
+      "delivery": null,
+      "store_id": "walmart",
+      "quality": 20,
+      "score": 44
     },
     {
       "title": "Sony PlayStation 5 Pro Console 1000045086",
@@ -326,59 +287,46 @@
       "delivery": null,
       "store_id": null,
       "quality": 20,
-      "score": 31
+      "score": 44
     },
     {
-      "title": "PlayStation 5 Upgraded 1.8TB Disc Edition Call of Duty Modern Warfare II Bundle with Cyberpunk 2077 and Mytrix Controller Charger",
-      "store": "Newegg.com - GeekShopping",
-      "price": 1054.99,
+      "title": "PS5 Slim Digital Console w/ Accessories Kit & Voucher",
+      "store": "Lowe's",
+      "price": 1029.99,
       "rating": null,
       "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:10823932241215755068,gpcid:5035851668733938416,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQQdqLTRqyYxkZUKPAcQNXk6YRXMDbxi1R4YSMznFRb0PFK58Rp4U6CB2rNm6L6uoC9KTsXP4AF2-boK3_oRRbaC5cLybJuaVbZMdWfVn52usUCheXdT2gj",
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:16071163842223492734,gpcid:4917257993621665069,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ03u7MMyhWfWWMI4njq_c8COUwseF_RgId6dn97leFXAJDdPCJMefwYxDiDsr3wad3PeNfB6h8_K_kgx-jI7nANrmLe4WaKcMZGfr7DCczmi1F5pFhIWa9oQ",
       "delivery": null,
       "store_id": null,
       "quality": 20,
-      "score": 29
+      "score": 43
     },
     {
       "title": "Playstation Sony 5 Console – Marvel's Spider-Man 2 Bundle",
       "store": "Walmart - HyperTech",
-      "price": 1079.99,
+      "price": 1084.99,
       "rating": 2.0,
       "reviews": 2,
       "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:4066965317577194885,gpcid:18154160829313054135,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSopbZvKm8PS2PUzlQKx8Xp7e4HDCTWfLjxuQTj2ziLC6aLh8uqfjz_Zuk8bd2ZoZf2stdBQWiiNbkHt5MNIOnDV7ooDC1kIyb6fr8IVn04JCA0OSTJtHb4",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQixBvR6FLkwD-0D7kNHVt8X_o9ItWH8yE1wHMQYnj7RvdX89253TVYxLSbrNRw2HASo3yplZw5p9q9HTRwr6R6ELVkGRrmf7Uzrcq0_fRNDRGEFBTeF4CRqw",
       "delivery": null,
       "store_id": "walmart",
       "quality": 12,
-      "score": 24
-    },
-    {
-      "title": "PlayStation 5 Pro Console",
-      "store": "GameStop",
-      "price": 1399.99,
-      "rating": null,
-      "reviews": 0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:11859373318977089352,gpcid:4865329941344519543,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTnxSmhReBr32PP9YONmFjwf-kzpF_b8VhWoqBvxSNjFfbl5Db8CzMt9---QYfX_Ha_7By3iIx6XDk1it-06zC32Gd-DbkuaK7kADamYucxUDvM175gds0I",
-      "delivery": null,
-      "store_id": null,
-      "quality": 20,
-      "score": 14
+      "score": 37
     },
     {
       "title": "Sony PlayStation 5 Pro Console",
-      "store": "GameStop",
-      "price": 1499.99,
-      "rating": 4.7,
-      "reviews": 6100,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:4337405995804634306,gpcid:10111951803829893645,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRN1638ZUBAcRjoWJFvUfgCr0UErc89Snt-ArycWzbU9TqJoWugd-MUPYQMNmIleIexRG5HekwVGILweb2DDBUHblAndXApDrazdCjaPw_-RgIBCoEd-jj_",
+      "store": "uShopMall.com - Since 2007",
+      "price": 2034.99,
+      "rating": 4.1,
+      "reviews": 164,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:12492295936044590590,gpcid:11886846464231826867,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS7_TEoB-x7pOCn6XUiHPn8pEBe9RYvsTm3flgqpYAvOG9eiV-1FMPdDXLpvPM9EShqRdpufn2FFasK1egvI8YucBI7NYJ1RAIZbdtmCybu5tdETdsSV_fm",
       "delivery": null,
       "store_id": null,
-      "quality": 80,
-      "score": 40
+      "quality": 37,
+      "score": 18
     }
   ]
 }
