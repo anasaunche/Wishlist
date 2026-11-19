@@ -1,5 +1,21 @@
 [
   {
+    "id": "q-playstation-5-1795124960",
+    "item_id": "q-playstation-5",
+    "name": "Playstation 5",
+    "date": "2026-11-19T21:49:20+00:00",
+    "old": 499.0,
+    "new": 290.0,
+    "pct": 41.9,
+    "currency": "USD",
+    "reasons": [
+      "📉 Bajó 42% desde el último precio",
+      "🏆 Precio más bajo de los últimos 2 años",
+      "🏪 En Serigrafia.eus"
+    ],
+    "url": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7077107502836468733,gpcid:7204905870497364494,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+  },
+  {
     "id": "q-playstation-5-1794952477",
     "item_id": "q-playstation-5",
     "name": "Playstation 5",
