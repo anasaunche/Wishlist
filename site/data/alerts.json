@@ -1,5 +1,21 @@
 [
   {
+    "id": "q-playstation-5-1795292105",
+    "item_id": "q-playstation-5",
+    "name": "Playstation 5",
+    "date": "2026-11-21T20:15:05+00:00",
+    "old": 499.0,
+    "new": 269.55,
+    "pct": 46.0,
+    "currency": "USD",
+    "reasons": [
+      "📉 Bajó 46% desde el último precio",
+      "🏆 Precio más bajo de los últimos 2 años",
+      "🏪 En elettrodomestici.shop"
+    ],
+    "url": "https://www.google.com/search?ibp=oshop&q=Playstation+5+*+*+*+*&prds=localAnnotatedOfferId:1,catalogid:10462142948681862027,gpcid:2982410263679214682,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+  },
+  {
     "id": "q-playstation-5-1795124960",
     "item_id": "q-playstation-5",
     "name": "Playstation 5",
