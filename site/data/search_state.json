@@ -68,37 +68,37 @@
     "points": 238
   },
   "q-playstation-5": {
-    "checked": "2026-11-21T20:15:03+00:00",
-    "price": 269.55,
+    "checked": "2026-11-22T20:29:06+00:00",
+    "price": 499.0,
     "currency": "USD",
-    "previous": 499.0,
-    "count": 7,
-    "stores": 6,
+    "previous": 269.55,
+    "count": 24,
+    "stores": 13,
     "cheapest": {
-      "title": "Sony Playstation 5 Slim + PS5 DUALSENSE Grey Camo",
-      "store": "elettrodomestici.shop",
-      "price": 269.55,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5+*+*+*+*&prds=localAnnotatedOfferId:1,catalogid:10462142948681862027,gpcid:2982410263679214682,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRlhVX6m3T1jmzR67e0JZiV2Xl7A8-YYlsXThrRwjJxzAFOqolWyOVsA6AyLW8G-sWqaSgYYckKiYE8m6xRLspFdLRLD4Ld9Fyu_yoV7EI6mPXFMc_GuW9-",
-      "rating": 5.0,
-      "reviews": 9
+      "title": "Certified Refurbished PlayStation 5 Digital Edition Console Slim",
+      "store": "PlayStation",
+      "price": 499.0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7126033585643939278,gpcid:9996215920294843558,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrxWeCLarAmtY0leBogpvFOaAQxzwIZV6IbzqcE0oQAZAKEYksRjrqizEOK4a5RgFpraxcsDhRN8-QHf1tetp-bwKtawR4uN9ewmFuKYUk_n8huVh52mos",
+      "rating": null,
+      "reviews": 0
     },
     "best_value": {
-      "title": "Sony PlayStation 5 Console Slim Digital Edition",
-      "store": "Target",
-      "price": 599.99,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5+*+*+*+*&prds=localAnnotatedOfferId:1,catalogid:9462261224435293319,gpcid:6261171866791939995,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQLCDXBDQc9BMOiRRJEfiZ21Bqeqkrx7oVlCRCoKxLDIEheTXmkJSh92R0B-vr_4jkLGxTz23DulaU1N4SFU4L8ZLnj7wyKww",
-      "rating": 4.6,
-      "reviews": 21000,
-      "score": 76
+      "title": "Sony PlayStation 5 Slim Console",
+      "store": "PlayStation",
+      "price": 649.0,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:18027009480412758698,gpcid:10464915926174910073,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ06aIs5HjQV-po7KoXKWHoJ4vTpLDQPBfhOh28AL8NVgFSFMQQfpckURLA7TDd0vn5K5o_uJOy_Gy69DNb-opEaRCcMM-J-vWbLMfDrvU_sxNgvuWeUzM_3Q",
+      "rating": 4.7,
+      "reviews": 13000,
+      "score": 84
     },
-    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRlhVX6m3T1jmzR67e0JZiV2Xl7A8-YYlsXThrRwjJxzAFOqolWyOVsA6AyLW8G-sWqaSgYYckKiYE8m6xRLspFdLRLD4Ld9Fyu_yoV7EI6mPXFMc_GuW9-",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrxWeCLarAmtY0leBogpvFOaAQxzwIZV6IbzqcE0oQAZAKEYksRjrqizEOK4a5RgFpraxcsDhRN8-QHf1tetp-bwKtawR4uN9ewmFuKYUk_n8huVh52mos",
     "min": 269.55,
     "min_date": "2026-11-21",
     "max": 499.0,
     "max_date": "2026-11-16",
-    "avg": 397.79,
-    "points": 6
+    "avg": 412.25,
+    "points": 7
   }
 }
