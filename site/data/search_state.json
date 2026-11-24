@@ -68,37 +68,37 @@
     "points": 238
   },
   "q-playstation-5": {
-    "checked": "2026-11-22T20:29:06+00:00",
-    "price": 499.0,
+    "checked": "2026-11-24T01:13:49+00:00",
+    "price": 399.99,
     "currency": "USD",
-    "previous": 269.55,
-    "count": 24,
-    "stores": 13,
+    "previous": 499.0,
+    "count": 23,
+    "stores": 10,
     "cheapest": {
-      "title": "Certified Refurbished PlayStation 5 Digital Edition Console Slim",
-      "store": "PlayStation",
-      "price": 499.0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:7126033585643939278,gpcid:9996215920294843558,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrxWeCLarAmtY0leBogpvFOaAQxzwIZV6IbzqcE0oQAZAKEYksRjrqizEOK4a5RgFpraxcsDhRN8-QHf1tetp-bwKtawR4uN9ewmFuKYUk_n8huVh52mos",
-      "rating": null,
-      "reviews": 0
+      "title": "Sony PlayStation 5 Digital",
+      "store": "almirco.com",
+      "price": 399.99,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8736404840729178319,gpcid:86605319763113512,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQUdNUDWGN5HDaDxWlT-SYH_jmcVKImq9ur4kL5sW25UZENcBMcuEANZ4Y1SykD39v2IY3_MxW6Cpd1J3KqzfUliCO5YdSSyPgD-5E6azF0DL7Ye128QBrc5Q",
+      "rating": 4.6,
+      "reviews": 21000
     },
     "best_value": {
-      "title": "Sony PlayStation 5 Slim Console",
-      "store": "PlayStation",
-      "price": 649.0,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:18027009480412758698,gpcid:10464915926174910073,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ06aIs5HjQV-po7KoXKWHoJ4vTpLDQPBfhOh28AL8NVgFSFMQQfpckURLA7TDd0vn5K5o_uJOy_Gy69DNb-opEaRCcMM-J-vWbLMfDrvU_sxNgvuWeUzM_3Q",
-      "rating": 4.7,
-      "reviews": 13000,
-      "score": 84
+      "title": "Sony PlayStation 5 Digital",
+      "store": "almirco.com",
+      "price": 399.99,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8736404840729178319,gpcid:86605319763113512,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQUdNUDWGN5HDaDxWlT-SYH_jmcVKImq9ur4kL5sW25UZENcBMcuEANZ4Y1SykD39v2IY3_MxW6Cpd1J3KqzfUliCO5YdSSyPgD-5E6azF0DL7Ye128QBrc5Q",
+      "rating": 4.6,
+      "reviews": 21000,
+      "score": 86
     },
-    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrxWeCLarAmtY0leBogpvFOaAQxzwIZV6IbzqcE0oQAZAKEYksRjrqizEOK4a5RgFpraxcsDhRN8-QHf1tetp-bwKtawR4uN9ewmFuKYUk_n8huVh52mos",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQUdNUDWGN5HDaDxWlT-SYH_jmcVKImq9ur4kL5sW25UZENcBMcuEANZ4Y1SykD39v2IY3_MxW6Cpd1J3KqzfUliCO5YdSSyPgD-5E6azF0DL7Ye128QBrc5Q",
     "min": 269.55,
     "min_date": "2026-11-21",
     "max": 499.0,
     "max_date": "2026-11-16",
-    "avg": 412.25,
-    "points": 7
+    "avg": 410.72,
+    "points": 8
   }
 }

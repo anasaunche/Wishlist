@@ -1,5 +1,20 @@
 [
   {
+    "id": "q-playstation-5-1795482831",
+    "item_id": "q-playstation-5",
+    "name": "Playstation 5",
+    "date": "2026-11-24T01:13:51+00:00",
+    "old": 499.0,
+    "new": 399.99,
+    "pct": 19.8,
+    "currency": "USD",
+    "reasons": [
+      "📉 Bajó 20% desde el último precio",
+      "🏪 En almirco.com"
+    ],
+    "url": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:8736404840729178319,gpcid:86605319763113512,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+  },
+  {
     "id": "q-playstation-5-1795292105",
     "item_id": "q-playstation-5",
     "name": "Playstation 5",
