@@ -68,37 +68,37 @@
     "points": 238
   },
   "q-playstation-5": {
-    "checked": "2026-11-25T22:48:21+00:00",
-    "price": 589.99,
+    "checked": "2026-11-26T22:36:53+00:00",
+    "price": 449.99,
     "currency": "USD",
-    "previous": 499.0,
-    "count": 29,
-    "stores": 18,
+    "previous": 589.99,
+    "count": 28,
+    "stores": 16,
     "cheapest": {
-      "title": "Sony PlayStation 5 Digital Edition Console",
+      "title": "Sony PlayStation 5 Console 1TB",
       "store": "GameStop",
-      "price": 589.99,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:12611877038836240949,gpcid:10252959786065141094,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNfYU_iooBrLR7DEtRHSxfSBlQ8QPKaxIDWcbtL4mOCYCB1d9vwJKoauxNe-zMEnrEP15PsfiVQdL2u_cwkzHlZ4HJ_EcjDh52iNNavT1nz0TolJh0snWD2w",
-      "rating": 4.6,
-      "reviews": 5700
+      "price": 449.99,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:6864404469306035575,gpcid:3743831449212821016,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQbS0Iggr5Apfw8mMnohgSTtPw-csiDWfvmxI7FXC38RqL4kLwf9B-Ae4MYzyQT0TotGx1YIa6WIiXdJLu9KwrpuiHSjBRrzn12F4xg12uPX1z3qOSH-yPng",
+      "rating": 4.5,
+      "reviews": 41000
     },
     "best_value": {
-      "title": "Sony PlayStation 5 Digital Edition Console",
-      "store": "GameStop",
-      "price": 589.99,
-      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:12611877038836240949,gpcid:10252959786065141094,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNfYU_iooBrLR7DEtRHSxfSBlQ8QPKaxIDWcbtL4mOCYCB1d9vwJKoauxNe-zMEnrEP15PsfiVQdL2u_cwkzHlZ4HJ_EcjDh52iNNavT1nz0TolJh0snWD2w",
-      "rating": 4.6,
-      "reviews": 5700,
-      "score": 86
+      "title": "Sony PlayStation 5 Console Slim Digital Version 825GB",
+      "store": "AliExpress",
+      "price": 745.73,
+      "link": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:3576465185937533849,gpcid:390479713998266085,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTTPwKCtcHLDoI6nRu5n6I1Kv_-8C6GWlH9ehXJUka8X0utM6-4EKhPo68o3VWCtOMZ4HFZEnaju6coODJhV34pWGAROeVLqt9ZfztBU3Aglpo51WQl-ClwIQ",
+      "rating": 4.9,
+      "reviews": 1200,
+      "score": 85
     },
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNfYU_iooBrLR7DEtRHSxfSBlQ8QPKaxIDWcbtL4mOCYCB1d9vwJKoauxNe-zMEnrEP15PsfiVQdL2u_cwkzHlZ4HJ_EcjDh52iNNavT1nz0TolJh0snWD2w",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQbS0Iggr5Apfw8mMnohgSTtPw-csiDWfvmxI7FXC38RqL4kLwf9B-Ae4MYzyQT0TotGx1YIa6WIiXdJLu9KwrpuiHSjBRrzn12F4xg12uPX1z3qOSH-yPng",
     "min": 269.55,
     "min_date": "2026-11-21",
     "max": 589.99,
     "max_date": "2026-11-25",
-    "avg": 441.64,
-    "points": 9
+    "avg": 442.47,
+    "points": 10
   }
 }
