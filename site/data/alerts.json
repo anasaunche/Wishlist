@@ -1,5 +1,20 @@
 [
   {
+    "id": "q-playstation-5-1795818057",
+    "item_id": "q-playstation-5",
+    "name": "Playstation 5",
+    "date": "2026-11-27T22:20:57+00:00",
+    "old": 449.99,
+    "new": 399.99,
+    "pct": 11.1,
+    "currency": "USD",
+    "reasons": [
+      "📉 Bajó 11% desde el último precio",
+      "🏪 En GameStop"
+    ],
+    "url": "https://www.google.com/search?ibp=oshop&q=Playstation+5&prds=localAnnotatedOfferId:1,catalogid:15349206165919107763,gpcid:982231405443478284,pvo:2,pvt:hg&gl=us&udm=28&pvorigin=2"
+  },
+  {
     "id": "q-playstation-5-1795732614",
     "item_id": "q-playstation-5",
     "name": "Playstation 5",
